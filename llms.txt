@@ -1,0 +1,175 @@
+# https://learn.microsoft.com/en-us/azure/machine-learning/ llms.txt
+
+## Azure Machine Learning Documentation
+
+This file provides a structured overview of Azure Machine Learning documentation to help LLMs understand and reference Azure ML resources effectively.
+
+## Core Azure ML Topics
+
+### Getting Started
+- [Azure Machine Learning Overview](https://learn.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-machine-learning): Introduction to Azure Machine Learning service
+- [Azure ML Quickstart](https://learn.microsoft.com/en-us/azure/machine-learning/quickstart-create-resources): Create Azure ML workspace and resources
+- [Azure ML Tutorial](https://learn.microsoft.com/en-us/azure/machine-learning/tutorial-azure-ml-in-a-day): Complete Azure ML tutorial for beginners
+
+### Azure ML SDK v2
+- [Azure ML SDK v2 Overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-v2): Understanding Azure ML SDK v2 architecture
+- [SDK v2 Installation](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-configure-cli): Install and configure Azure ML CLI v2
+- [Python SDK v2 Guide](https://learn.microsoft.com/en-us/python/api/overview/azure/ml/intro): Azure ML Python SDK v2 documentation
+
+### MLflow Integration
+- [MLflow in Azure ML](https://learn.microsoft.com/en-us/azure/machine-learning/concept-mlflow): MLflow integration with Azure Machine Learning
+- [MLflow Tracking](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-use-mlflow): Track experiments with MLflow in Azure ML
+- [MLflow Models](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-deploy-mlflow-models): Deploy MLflow models in Azure ML
+
+### Pipelines & Components
+- [Azure ML Pipelines](https://learn.microsoft.com/en-us/azure/machine-learning/concept-ml-pipelines): Understanding ML pipelines in Azure
+- [Create Components](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-create-component-pipeline-python): Build reusable pipeline components
+- [Pipeline Jobs](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-create-job-pipelines): Submit and manage pipeline jobs
+
+### Data Management
+- [Data Assets](https://learn.microsoft.com/en-us/azure/machine-learning/concept-data): Managing data in Azure ML
+- [Datastores](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-datastore): Connect to storage services
+- [Data Preparation](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-create-register-data-assets): Create and register data assets
+
+### Model Training
+- [Train Models](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-train-model): Train ML models in Azure
+- [Distributed Training](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-train-distributed-gpu): Distributed GPU training
+- [Hyperparameter Tuning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-tune-hyperparameters): Optimize model hyperparameters
+
+### Model Deployment
+- [Deploy Models](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-deploy-online-endpoints): Deploy models to online endpoints
+- [Batch Endpoints](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-use-batch-endpoint): Deploy batch inference endpoints
+- [Model Management](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-models): Register and manage models
+
+### Compute Resources
+- [Compute Targets](https://learn.microsoft.com/en-us/azure/machine-learning/concept-compute-target): Azure ML compute options
+- [Compute Clusters](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-create-attach-compute-cluster): Create compute clusters
+- [Compute Instances](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-create-compute-instance): Development compute instances
+
+### Environments
+- [Azure ML Environments](https://learn.microsoft.com/en-us/azure/machine-learning/concept-environments): Reproducible ML environments
+- [Create Environments](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-environments-v2): Build custom environments
+- [Environment Best Practices](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-environments-reproducibility): Environment reproducibility
+
+### Monitoring & Logging
+- [Monitor Models](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-monitor-online-endpoints): Monitor deployed models
+- [Application Insights](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-enable-app-insights): Enable Application Insights
+- [Data Drift](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-monitor-datasets): Detect data drift
+
+### Security & Governance
+- [Security Overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-enterprise-security): Enterprise security in Azure ML
+- [Network Security](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-secure-workspace-vnet): Secure workspace with VNet
+- [RBAC](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-assign-roles): Role-based access control
+
+### Responsible AI
+- [Responsible AI Dashboard](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai): Responsible AI tools
+- [Model Interpretability](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-machine-learning-interpretability): Explain model predictions
+- [Fairness Assessment](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-machine-learning-fairness-aml): Assess model fairness
+
+### AutoML
+- [AutoML Overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-automated-ml): Automated machine learning
+- [AutoML for Classification](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-auto-train-models): Train classification models
+- [AutoML for Time Series](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-auto-train-forecast): Time series forecasting
+
+### Designer
+- [Azure ML Designer](https://learn.microsoft.com/en-us/azure/machine-learning/concept-designer): Visual ML pipeline builder
+- [Designer Modules](https://learn.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/module-reference): Available designer modules
+- [Designer Tutorial](https://learn.microsoft.com/en-us/azure/machine-learning/tutorial-designer-automobile-price-train-score): Designer tutorial
+
+### CLI & Automation
+- [Azure ML CLI v2](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-configure-cli): Configure Azure ML CLI
+- [CLI Reference](https://learn.microsoft.com/en-us/azure/machine-learning/reference-azure-machine-learning-cli): CLI command reference
+- [CI/CD Pipelines](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-github-actions-machine-learning): GitHub Actions for ML
+
+### Best Practices
+- [MLOps](https://learn.microsoft.com/en-us/azure/machine-learning/concept-model-management-and-deployment): MLOps with Azure ML
+- [Cost Management](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-optimize-cost): Optimize Azure ML costs
+- [Performance Optimization](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-train-with-datasets): Training performance tips
+
+### Troubleshooting
+- [Common Issues](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-troubleshoot-online-endpoints): Troubleshoot deployments
+- [Debug Pipelines](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-debug-pipelines): Debug pipeline failures
+- [Quota Management](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-quotas): Manage compute quotas
+
+## Key Concepts
+
+### Workspace
+The top-level resource for Azure Machine Learning, providing a centralized place to work with all artifacts.
+
+### Compute
+Various compute resources for training and inference including clusters, instances, and serverless compute.
+
+### Data Assets
+Versioned references to data in storage locations, making data reproducible and reusable.
+
+### Models
+Trained machine learning models that can be registered, versioned, and deployed.
+
+### Environments
+Docker-based environments that specify software dependencies for training and inference.
+
+### Pipelines
+Workflows that chain together data preparation, training, and deployment steps.
+
+### Endpoints
+Deployment targets for models, supporting both real-time and batch inference.
+
+## Common Tasks
+
+1. **Create Workspace**: Set up Azure ML workspace
+2. **Prepare Data**: Create and register data assets
+3. **Define Environment**: Specify dependencies
+4. **Train Model**: Submit training jobs
+5. **Register Model**: Version and track models
+6. **Deploy Model**: Create online or batch endpoints
+7. **Monitor Performance**: Track metrics and logs
+
+## Integration Points
+
+- **MLflow**: Open-source platform for ML lifecycle
+- **Azure DevOps**: CI/CD integration
+- **GitHub Actions**: Automated workflows
+- **Azure Monitor**: Logging and monitoring
+- **Azure Key Vault**: Secrets management
+- **Azure Container Registry**: Docker images
+- **Azure Storage**: Data storage
+
+## SDK Examples
+
+### Python SDK v2
+```python
+from azure.ai.ml import MLClient
+from azure.identity import DefaultAzureCredential
+
+ml_client = MLClient(
+    DefaultAzureCredential(),
+    subscription_id="<subscription>",
+    resource_group_name="<resource-group>",
+    workspace_name="<workspace>"
+)
+```
+
+### CLI v2
+```bash
+az ml job create --file job.yml
+az ml model create --file model.yml
+az ml online-endpoint create --file endpoint.yml
+```
+
+## Additional Resources
+
+- [Azure ML Samples](https://github.com/Azure/azureml-examples): Official code samples
+- [Azure ML Cheat Sheet](https://learn.microsoft.com/en-us/azure/machine-learning/algorithm-cheat-sheet): Algorithm selection guide
+- [Azure ML Pricing](https://azure.microsoft.com/pricing/details/machine-learning/): Pricing information
+- [Azure ML Updates](https://learn.microsoft.com/en-us/azure/machine-learning/azure-machine-learning-release-notes): Latest features and updates
+
+## Support & Community
+
+- [Azure ML Forum](https://learn.microsoft.com/en-us/answers/topics/azure-machine-learning.html): Q&A community
+- [Azure ML Blog](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/bg-p/MachineLearningBlog): Technical blog
+- [Azure Support](https://azure.microsoft.com/support/): Official support channels
+
+---
+
+Generated for: https://learn.microsoft.com/en-us/azure/machine-learning/
+Last Updated: 2025-08-06
